@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://sanyam:Sanyam123@cluster0.5efgv.mongodb.net/doyenclub?retryWrites=true&w=majority",
+  "jwtSecret": "myJWTsecret"
+}

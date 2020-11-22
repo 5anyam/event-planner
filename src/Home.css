@@ -1,0 +1,30 @@
+
+.cards{
+    font-family:Helvetica, sans-serif;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    margin: 20px 100px 20px 100px;
+}
+.cardinfo{
+    display:flex;
+    justify-content:space-between;
+    margin:10px;
+    font-family:Helvetica, sans-serif;
+}
+.cardinfo h3{
+    margin-left: 40px;
+}
+.cardinfo p{
+    margin-right: 40px;
+}
+
+
+@media screen and (max-width:432px){
+    .cards{
+        margin:5px;
+        padding:5px;
+        flex-direction:row;
+        overflow-x:auto;
+    }   
+}    

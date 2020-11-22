@@ -1,0 +1,54 @@
+.card{
+    margin:10px;
+    border:0px solid;
+    border-radius:20px;
+    overflow:hidden;
+    transition: transform 100ms ease-in;
+    cursor:pointer;
+    box-shadow:0px 6px 18px -9px rgba(0,0,0,0.75);
+}
+.card:hover{
+    transform:scale(1.07);
+}
+.card > img{
+    object-fit:fill;
+    height:200px;
+    max-width:350px;
+    width:100%;
+}
+.card__info > h2{
+    padding:10px;
+    font-family:Helvetica, sans-serif;
+    color:black;
+    border-bottom:2px solid lightgrey;
+}
+.card__info > h3{
+    font-family:Helvetica, sans-serif;
+    color:#5ce1e6;
+    padding:10px;
+}
+.card__info > h4{
+    font-family:Helvetica, sans-serif;
+    color:black;
+    padding:10px;
+    max-width:300px;
+}
+@media screen and (max-width:470px){
+    .card{
+        width:150px;
+    }
+    .card > img{
+    height:100px;
+    max-width:170px;
+}
+.card__info > h2{
+    font-size:18px;
+}
+.card__info > h3{
+   font-size:12px;
+}
+.card__info > h4{
+    font-size:12px;
+}
+    
+}

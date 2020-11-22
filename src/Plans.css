@@ -1,0 +1,11 @@
+.container{
+    margin-top:15px;
+    align-items:center;
+    color:red;
+    font-family:Helvetica, sans-serif;
+}
+.container>h1{
+    text-align:center;
+    font-size:3rem;
+    border-bottom:2px solid grey;
+}
